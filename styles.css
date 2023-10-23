@@ -22,3 +22,15 @@
 .slides img{
     width: 350px;
 }
+.slides h2{
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.slide1{
+    background-image: url('img/bg_img_slide1.jpeg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Makes the background fixed as the user scrolls */
+    background-position: center center;
+}
