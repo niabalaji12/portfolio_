@@ -20,11 +20,9 @@ body {
     transform: translateY(-50%);
 }
 
-/* Style the container for the text */
 .text-container {
-    max-width: calc(100% - 350px); /* Adjust the width as needed */
+    margin-right: 40px; /* Adjust the margin as needed */
 }
-
 .text-container h1,
 .text-container h2 {
     color: #fff; /* Text color */
