@@ -7,7 +7,7 @@ body {
 
 .toolbar {
     background-color: #333;
-    color: #fff;
+    color: #DDA0DD;
     padding: 10px 20px;
     display: flex;
     justify-content: flex-end;
@@ -25,7 +25,7 @@ body {
 
 .toolbar a {
     text-decoration: none;
-    color: #DDA0DD;
+    color: #fff;
 }
 
 .top-right-image {
