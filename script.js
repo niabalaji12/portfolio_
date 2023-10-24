@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollToSlide(currentSlide);
 });
 
+const cursor = document.querySelector('.custom-cursor');
+
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+});
 window.addEventListener("wheel", (event) => {
     if (event.deltaY > 0) {
         // Scrolling down
