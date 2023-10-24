@@ -32,21 +32,22 @@
 }
 .slide1{
     background-image: url('img/bg_img.jpeg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    
 }
 .slide2{
     background-image: url('img/slide2_bgimg.jpeg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-.slide1{
+.slide3{
     background-image: url('img/slide3_bg.jpeg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
