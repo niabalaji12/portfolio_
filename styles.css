@@ -22,6 +22,7 @@ body {
 
 .text-container {
     margin-right: 40px; /* Adjust the margin as needed */
+    text-align: right;
 }
 .text-container h1,
 .text-container h2 {
