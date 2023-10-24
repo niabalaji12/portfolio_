@@ -3,6 +3,49 @@ body {
     padding: 0;
     position: relative;
 }
+.center-right-image {
+    width: 500px; /* Adjust the size as needed */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    z-index: -1; /* Push the image to the background */
+}
+
+/* Style the note image to ensure it's on top */
+.right-image {
+    width: 300px;
+    float: right;
+    margin-left: 20px; /* Add margin to separate it from the text */
+    z-index: 1; /* Bring the note image to the foreground */
+}
+
+/* Style the container for the text */
+.text-container {
+    max-width: calc(100% - 350px); /* Adjust the width as needed */
+    position: relative; /* Position the container relative to the slide */
+    z-index: 1; /* Bring the text container to the foreground */
+}
+
+/* Style the container for the center-right image */
+.center-right-image-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.center-right-image-container img {
+    width: 100%; /* Adjust the size as needed */
+    display: block;
+}
+
+.text-container h1,
+.text-container h2 {
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding for spacing */
+}
+
 
 .toolbar {
     background-color: #DDA0DD;
