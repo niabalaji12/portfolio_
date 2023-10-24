@@ -19,13 +19,13 @@ body {
 }
 
 #slide1 {
-    background-image: url('image1.jpg'); /* Replace with your image path */
+    background-image: url('img/bg_img_slide1.jpeg'); /* Replace with your image path */
 }
 
 #slide2 {
-    background-image: url('image2.jpg'); /* Replace with your image path */
+    background-image: url('img/slide2_bgimg.jpeg'); /* Replace with your image path */
 }
 
 #slide3 {
-    background-image: url('image3.jpg'); /* Replace with your image path */
+    background-image: url('img/slide3_bg.jpeg'); /* Replace with your image path */
 }
