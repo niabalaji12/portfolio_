@@ -9,7 +9,7 @@ body {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-
+}
 
 
 .slide {
@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 2rem;
     position: relative;
 }
 
