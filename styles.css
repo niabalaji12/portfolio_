@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: auto; /* Change to auto or remove this line */
     position: relative;
 }
 
@@ -26,25 +25,22 @@ body {
 .toolbar a {
     text-decoration: none;
     color: #fff;
-    font-family: 'M PLUS Rounded 1c', sans-serif; /* Set the desired font */
-    font-size: 36px; /* Set the desired font size */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 36px;
 }
 
 /* Increase the size and set the font for specific links */
-.toolbar a[href="#slide2"] {
-    font-size: 36px; /* Adjust the font size as needed */
-    font-family: 'Quattrocento Sans', sans-serif; /* Set the desired font */
-}
-
+.toolbar a[href="#slide2"],
 .toolbar a[href="#slide3"] {
-    font-size: 36px; /* Adjust the font size as needed */
-    font-family: 'Quattrocento Sans', sans-serif; /* Set the desired font */
+    font-size: 36px;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .sticky-note {
     position: relative;
-    width: 200px; /* Adjust the size as needed */
+    width: 200px;
     padding: 20px;
+    text-align: center; /* Center the text within the sticky note */
 }
 
 .sticky-note img {
@@ -53,13 +49,10 @@ body {
 }
 
 .sticky-note p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
     font-size: 18px;
     color: #333;
+    margin: 0; /* Remove default margins */
+    padding: 10px; /* Add padding for spacing inside the sticky note */
 }
 
 .top-right-image {
@@ -86,7 +79,7 @@ h1 {
 
 h2 {
     font-size: 31px;
-    color: #fff; /* Corrected the color value to white */
+    color: #fff;
 }
 
 .slide {
