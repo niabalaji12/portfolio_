@@ -3,6 +3,24 @@ body {
     padding: 0;
     position: relative;
 }
+.center-right-image {
+    width: 500px; /* Adjust the size as needed */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+}
+
+/* Style the container for the text */
+.text-container {
+    max-width: calc(100% - 350px); /* Adjust the width as needed */
+}
+
+.text-container h1,
+.text-container h2 {
+    color: #fff; /* Text color */
+    padding: 10px; /* Add padding for spacing */
+}
 
 .toolbar {
     background-color: #DDA0DD;
