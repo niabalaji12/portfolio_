@@ -26,7 +26,21 @@ body {
 .toolbar a {
     text-decoration: none;
     color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif; /* Set the desired font */
+    font-size: 24px; /* Set the desired font size */
 }
+
+/* Increase the size and set the font for specific links */
+.toolbar a[href="#slide2"] {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: 'Playfair Display', serif; /* Set the desired font */
+}
+
+.toolbar a[href="#slide3"] {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: 'Playfair Display', serif; /* Set the desired font */
+}
+
 
 .top-right-image {
     position: absolute;
