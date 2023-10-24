@@ -10,13 +10,8 @@ container{
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
-.top-right-image {
-    position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
-    width: 100px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-}
+
+
 h1{
     font-size: 99px;
     color: black;
