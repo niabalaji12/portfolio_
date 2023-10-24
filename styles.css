@@ -13,6 +13,14 @@ body {
     z-index: -1; /* Push the image to the background */
 }
 
+/* Style the note image to ensure it's on top */
+.right-image {
+    width: 300px;
+    float: right;
+    margin-left: 20px; /* Add margin to separate it from the text */
+    z-index: 1; /* Bring the note image to the foreground */
+}
+
 /* Style the container for the text */
 .text-container {
     max-width: calc(100% - 350px); /* Adjust the width as needed */
@@ -25,6 +33,8 @@ body {
     color: #fff; /* Text color */
     padding: 10px; /* Add padding for spacing */
 }
+
+/* Rest of your existing CSS */
 
 /* Rest of your existing CSS */
 
