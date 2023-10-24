@@ -9,11 +9,7 @@ body {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-}
-.h1{
-    font-size: 78px;
-    color: #fff;
-}
+
 
 
 .slide {
