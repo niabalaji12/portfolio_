@@ -6,8 +6,8 @@ body {
 }
 
 .toolbar {
-    background-color: #333;
-    color: #DDA0DD;
+    background-color: #DDA0DD;
+    color: #fff;
     padding: 10px 20px;
     display: flex;
     justify-content: flex-end;
