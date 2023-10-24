@@ -12,9 +12,11 @@ body {
 }
 .h1{
     font-size: 99px;
+    color: black;
 } 
 .h2{
     font-size: 56px;
+    color : fff;
 } 
 
 .slide {
@@ -25,7 +27,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     font-size: 2rem;
     position: relative;
 }
