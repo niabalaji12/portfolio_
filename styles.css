@@ -61,26 +61,6 @@ body {
     font-size: 36px;
     font-family: 'Quattrocento Sans', sans-serif;
 }
-
-.sticky-note {
-    position: relative;
-    width: 200px;
-    padding: 20px;
-    text-align: center; /* Center the text within the sticky note */
-}
-
-.sticky-note img {
-    width: 100%;
-    display: block;
-}
-
-.sticky-note p {
-    font-size: 18px;
-    color: #333;
-    margin: 0; /* Remove default margins */
-    padding: 10px; /* Add padding for spacing inside the sticky note */
-}
-
 .top-right-image {
     position: absolute;
     top: 10px;
