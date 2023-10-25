@@ -1,37 +1,23 @@
-const slides = document.querySelectorAll(".slide");
-let currentSlide = 0;
+let slideIndex = 1;
 
-document.addEventListener("DOMContentLoaded", () => {
-    scrollToSlide(currentSlide);
-});
+showSlide(slideIndex);
 
-const cursor = document.querySelector('.custom-cursor');
+function currentSlide(n) {
+    showSlide(slideIndex = n);
+}
 
-document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.pageX + 'px';
-    cursor.style.top = e.pageY + 'px';
-});
-window.addEventListener("wheel", (event) => {
-    if (event.deltaY > 0) {
-        // Scrolling down
-        currentSlide++;
-    } else {
-        // Scrolling up
-        currentSlide--;
+function showSlide(n) {
+    let i;
+    const slides = document.getElementsByClassName("slide");
+    const buttons = document.getElementsByClassName("nav-button");
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
-
-    if (currentSlide < 0) {
-        currentSlide = 0;
-    } else if (currentSlide >= slides.length) {
-        currentSlide = slides.length - 1;
+    for (i = 0; i < buttons.length; i++) {
+        buttons[i].style.backgroundColor = "#333";
     }
-
-    scrollToSlide(currentSlide);
-});
-
-function scrollToSlide(index) {
-    const translateY = `translateY(-${index * 100}vh)`;
-    slides.forEach((slide) => {
-        slide.style.transform = translateY;
-    });
+    slides[slideIndex - 1].style.display = "block";
+    buttons[slideIndex - 1].style.backgroundColor = "#f1f1f1";
 }
