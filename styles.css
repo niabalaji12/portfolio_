@@ -1,40 +1,204 @@
-/* Add your existing styles here */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@800&display=swap');
 
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
+body {
+    font-size: 13px;
+    font-family: verdana;
+    color: #0D2B45;
+    background: #0D2B45;
+    line-height: 1.1rem;
 }
 
-.slide {
-    display: none;
+.site-title {
+	font-family: 'Gluten', cursive;
+	color: #FFAA5E;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 160px;
+	font-size: 36px;
+	font-weight: 800;
+	text-shadow: 4px 4px 0px #0d2b45;
+	padding-left: 10px
+}
+
+.layout {
+	margin: auto
+}
+
+.layout > tbody {
+    background-repeat: repeat-y;
+    width: 800px;
+    position: relative;
+}
+
+.layout > tbody::before {
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 260px;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.layout > tbody::after {
+    background-repeat: no-repeat;
     width: 100%;
+    height: 80px;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.menu-button {
+    background-repeat: no-repeat;
+    width: 147px;
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #544E68;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 0px #FFECD6;
+    font-family: cursive;
+}
+
+h1 {
+	padding: 0;
+	padding-bottom: 0px;
+	margin: 0;
+	color: #d08159;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-weight: bold;
+	border-bottom: 1px dashed #d08159;
+	padding-bottom: 4px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.main {
+    box-sizing: border-box;
+    padding: 0px 24px;
+    position: relative;
+    width: 570px;
+    padding-bottom: 24px;
+}
+
+.menu {
+    padding-bottom: 24px;
+    margin: 0 24px;
+}
+
+.updates {
+    margin-top: 24px;
+    font-size: 13px;
+}
+.updates small {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    display: inline-block;
+    background: #364874;
+    color: #dbe1b6;
+    padding: 2px 4px;
+}
+.updates a {
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+h2 {
+    margin: 0;
+    font-size: 14px;
+    color: #FFF;
+    border-left: 3px solid #000;
+    font-weight: 500;
+    padding: 4px 8px;
+    display: inline-block;
+    border-left: 2px solid #d08159;
+    font-size: 13px;
+    box-shadow: 4px 4px 0px #ffd4a3;
+    margin-top: 24px;
+}
+
+.thumb {
+    border: 1px solid #0D2B45;
+}
+
+textarea.code {
+    padding: 6px 12px;
+    color: #dbe1b6;
+    background: #0D2B45;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    min-width: 80%;
+}
+
+textarea.guestbook {
+
+}
+
+iframe.guestbook {
+    position: relative;
+    top: -35px;
+    left: -28px;
+    width: 588px;
+    height: 630px;
+    bottom: -40px;
+    margin-bottom: -63px;
+    border: 0;
 }
 
 img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
 }
 
-.text {
-    position: absolute;
-    bottom: 0;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+.page td:nth-child(2) {
+    padding-left: 12px;
 }
 
-.navigation {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.nav-button {
-    background-color: #333;
-    color: #fff;
+.border-0 {
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
 
-/* Add more CSS styles to customize your website */
+pre {
+    background: #0D2B45;
+    display: block;
+    color: #dbe1b6;
+    padding: 12px;
+    overflow: scroll;
+    max-width: 500px;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.layout > tbody {
+    background-image: url('bg.png');
+}
+
+.layout > tbody::before {
+    background-image: url('header.png');
+}
+
+.layout > tbody::after {
+    background-image: url('footer.png');
+}
+
+.menu-button {
+    background-image: url('button.png');
+}
+
+h2 {
+    background-image: url('header-bg.png');
+}
